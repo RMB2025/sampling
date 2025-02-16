@@ -10,10 +10,28 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Roslyn Bryan
 
 ```
 Please write your explanation here...
+The def simulate_event(m) function creates a population of individuals attending weddings and brunches. This population is originally uninfected, but Attack_Rate is used to randomly infect 10 percent of the population. 
+
+The sampling frame population is the proportion of the population randomly selected to be infected. The function then performs primary and secondary contact tracing on the sample and calculates the proportion of infections and the proportions of traced cases that are attributed to weddings.
+
+The total population is 1000 people, 200 of whom are wedding attendees, and 800 of whom make up the general population.
+
+The repetition of 1000 creates a graph that shows the proportion of cases traced to weddings as being very similar to the graph of infections from weddings, showing a close relationship between the two. However, the graphs in the blog suggests that the two graphs are not closely related. The graph showing the observed proportion of infections resulting from weddings is much wider and has a mean that is much greater than the mean of the True proportion graph.
+
+After changing the number of repetitions in the simulation to 100, I ran the script more than multiple times, and got different results each time. At no time did I get graphs that looked like the graphs in the blog.
+
+To make the code reproducible, I added a constant random seed. 
+
+Inside the simulate_event function, I added np.random.seed(SEED + m) to set the seed for the random number generator. 
+
+Setting a seed for the random number generator ensured the same sequences of random numbers were generated each time the code was run. This made it possible for the same infected people and same tracing decisions to used for each run.
+
+The changes made the script file reproducible so that the graphs were the same every time the script was run, making the results more reliable.
+
 
 ```
 
