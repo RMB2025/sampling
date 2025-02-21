@@ -40,30 +40,53 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#` 1
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+
+Over the past few months, Sampling A2 Designs Inc. has been experiencing a high turnover rate across many departments, especially within entry- and lower-level positions. The purpose of this survey is to understand why this is happening and to determine what changes need to be made to improve employee satisfaction.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+
+The target population for this survey are all employees, particularly the employees in entry- and lower-level positions. 
+
+The sampling frame for this survey is the list of current Sampling A2 Designs Inc. employees and the list of employees who left the organization within the last three months.
+
+The employee list includes job titles, departments, employee status(whether the employee is a current or former employee), and contact information.
+
+Sampling units are individual employees (current and former).
+
+The observational units are the individual employees (current and former) who are part of the survey.
 ```
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+What aspects of your job do you enjoy the most?
 2. write your question here...
+What aspects of your job do you find the most challenging or frustrating?
 3. write your question here...
+Do you feel you have the resources you need to perform your job effectively?
 4. write your question here...
+Do you feel there are sufficient opportunities for career advancement within this organization?
 5. write your question here...
+How satisfied are you with your current compensation and benefits package?
 6. write your question here... (optional)
+What do you think Sampling A2 Designs Inc. is doing well?
 7. write your question here... (optional)
+What areas do you think need improvement?
 8. write your question here... (optional)
+For former employees:
+What were your primary reasons for leaving the company?
 9. write your question here... (optional)
+what, if anything, could the company have done to retain you?
 10. write your question here... (optional)
+Do you have any additional comments or suggestions for the organization?
 ```
 
 ## Part B - Survey Evaluation:
@@ -72,6 +95,64 @@ Identify and describe survey features:
 
 ```
 write your answer here
+
+1. Sample type
+The sample type of the survey is two-stage stratified sampling. Each province or Census metropolitan Area forms a separate stratum, for a total of 27 strata. 
+From each stratum, a random sample of households is selected. Then, one household member aged 15 or older is randomly chosen to provide information.
+In the first stage, respondents are classified into volunteers and non volunteers.
+In the second stage, respondents are selected for long interviews or short interviews. All volunteers do a long interview. Non-volunteers are randomly divided into a long interview or short interview group.
+
+2. Sample size
+Sample size is approximately 24,000 units.
+
+3. Target population
+All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+
+4. Sampling frame
+List of landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. The first stage sampling units within the sampling frame are groups of one or several telephone numbers associated with the same address.
+
+5. Survey mode(s)
+Survey mode is initially by mailed invitations and then by electronic questionnaire or computer assisted telephone interviewing.
+
+6. Timeline
+The data is collected from September to December.
+The survey questions cover the 12-month period up to the date of the survey.
+Respondents spend about 44 minutes responding to the survey.
+
+7. Response rate
+Overall response rate is 41.9.
+
+8. Weights
+Estimates of the number of persons having one or several given characteristics are calculated using WGHT_PER as the basic weighting factor.
+Survey data estimates are adjusted so that they are representative of the target population with regard to certain characteristics.
+In addition, design-based variance estimation is calculated using booststrap weights.
+
+9. Data processing
+SSPE, a controlled, structured system for managing and processing survey data is used to monitor the processing of data, ensuring efficiency, consistency, and high quality.
+Edits are performed automatically and manually at various stages of processng. 
+
+10. Cleaning, imputation, etc
+Edits are programmed into the CATI system to detect errors, ensure consistency, and resolve detected errors with respondents during the interview. 
+Head office performs the same checks as the CATI system.
+All imputations (with a few exceptions) are made using donor records selected through a score function. Scores are based on certain donor record characteristics.
+Where donor imputation cannot be used, mean imputation among a pool of donors is used.
+
+11. Sources of error
+Sampling error: Data is based on a sample of households and so may not reflect exact values of the target population.
+Non-sampling error: Non-response errors and imperfect coverage. There may also be response errors and processing errors.
+
+
+12. Limitations, known biases, etc
+Nonresponse bias: The survey weights are adjusted to account for nonresponse in order to reduce nonresponse bias as much as possible. 
+Information from administrative sources are also used to model and adjust nonrespone.
+Households without telephones are excluded from the survey population. 
+Survey estimates are weighted to represent all persons in the target population, including those not covered by the survey frame.
+
+13. Link to documentation and any additional sources used
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+https://ieeexplore.ieee.org/document/10808666
+
+
 ```
 
 ## Rubric
